@@ -6,3 +6,10 @@ def get_quote():
     response.raise_for_status()
     data = response.json()
     quote = data["quote"]
+
+
+window = Tk()
+window.title("Kanye says...")
+window.config(pady=50, padx=50)
+
+canvsa
